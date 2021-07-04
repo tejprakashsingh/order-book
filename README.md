@@ -36,4 +36,39 @@ Additionally, the system will support querying the current state of an order boo
 
 Note : Order Book Controller is used for populating the H2 database before Market Order Controller gets triggered.
 
-
+---------------------------------------------INPUT JSON --------------------------------------------
+Input Json for placeOrder API:
+1] MARKET/buy :
+ {
+    "inTime": null,
+    "price": null,
+    "quantity": 10,
+	   "orderType" :MARKET,
+	   "txnType":"buy"
+  }
+  
+  2] MARKET/sell :
+{
+    "inTime": null,
+    "price": null,
+    "quantity": 10,
+	    "orderType" :MARKET,
+	    "txnType":"sell"
+  }
+      3] LIMIT/sell :
+{
+    "inTime": null,
+    "price": 22.50,
+    "quantity": 10,
+	   "orderType" :LIMIT,
+	   "txnType":"sell"
+  }
+  
+  4] LIMIT/buy :
+{
+    "inTime": null,
+    "price": 22.50,
+    "quantity": 10,
+	   "orderType" :LIMIT,
+	   "txnType":"buy"
+  }
