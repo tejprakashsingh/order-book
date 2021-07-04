@@ -33,3 +33,7 @@ To place an ASK Order : ...../v1/bid/placeOrder?orderType=Limit&price=3&quantity
 
 
 Additionally, the system will support querying the current state of an order book at any given time
+
+Note : Order Book Controller is used for populating the H2 database before Market Order Controller gets triggered.
+
+
