@@ -20,11 +20,16 @@ Fetch Order :../v1/ask/allAskOrder
 NEW ORDER , AMEND ORDER : ../v1/ask/saveAskOrder?id=6&price=54.0&quantity=11
 
 Market Order :
+
 To place an BID Order : ...../v1/bid/placeOrder?orderType=MARKET&price=3&quantity=500&txnType=buy
+
 To place an ASK Order : ...../v1/bid/placeOrder?orderType=MARKET&price=3&quantity=500&txnType=sell
 
 Limit Order :
+
 To place an BID Order : ...../v1/bid/placeOrder?orderType=Limit&price=3&quantity=500&txnType=buy
+
 To place an ASK Order : ...../v1/bid/placeOrder?orderType=Limit&price=3&quantity=500&txnType=sell
+
 
 Additionally, the system will support querying the current state of an order book at any given time
