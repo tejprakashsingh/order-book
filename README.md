@@ -21,9 +21,9 @@ NEW ORDER , AMEND ORDER : ../v1/ask/saveAskOrder?id=6&price=54.0&quantity=11
 
 Market Order :
 
-To place an BID Order : ...../v1/bid/placeOrder?orderType=MARKET&price=3&quantity=500&txnType=buy
+To place an BID Order : ...../v1/bid/placeOrder?orderType=MARKET&price=&quantity=500&txnType=buy
 
-To place an ASK Order : ...../v1/bid/placeOrder?orderType=MARKET&price=3&quantity=500&txnType=sell
+To place an ASK Order : ...../v1/bid/placeOrder?orderType=MARKET&price=&quantity=500&txnType=sell
 
 Limit Order :
 
@@ -37,7 +37,9 @@ Additionally, the system will support querying the current state of an order boo
 Note : Order Book Controller is used for populating the H2 database before Market Order Controller gets triggered.
 
 ---------------------------------------------INPUT JSON --------------------------------------------
+
 Input Json for placeOrder API:
+
 1] MARKET/buy :
  {
     "inTime": null,
@@ -55,7 +57,8 @@ Input Json for placeOrder API:
 	    "orderType" :MARKET,
 	    "txnType":"sell"
   }
-      3] LIMIT/sell :
+      
+  3] LIMIT/sell :
 {
     "inTime": null,
     "price": 22.50,
