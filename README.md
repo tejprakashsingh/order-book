@@ -1,5 +1,5 @@
 # order-book
-@ auther : tejPrakash Singh 
+@ auther : Tej Prakash Singh 
 Date : 4th Jul 2021
  
 Swagger URL : http://localhost:8083/swagger-ui.html
