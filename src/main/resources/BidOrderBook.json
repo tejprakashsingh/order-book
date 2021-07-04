@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "price": 10,
+    "quantity": 20,
+    "lock": null
+  },
+  {
+    "id": 2,
+    "price": 900,
+    "quantity": 50,
+    "lock": null
+  },
+  {
+    "id": 3,
+    "price": 200.34,
+    "quantity": 4,
+    "lock": null
+  },
+  {
+    "id": 4,
+    "price": 120.34,
+    "quantity": 8,
+    "lock": null
+  },
+  {
+    "id": 5,
+    "price": 30.65,
+    "quantity": 8,
+    "lock": null
+  }
+]
